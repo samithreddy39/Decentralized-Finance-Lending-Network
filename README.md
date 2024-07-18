@@ -1,24 +1,38 @@
-# P2P Lending platform
+# Decentralized-Finance-Lending-Network
+
 Peer 2 peer lending platform on the Ethereum blockchain network.
 
 # About
+This project is a Peer-to-Peer (P2P) lending platform built on the Ethereum blockchain network. This decentralized platform connects borrowers and lenders directly, eliminating the need for traditional financial intermediaries. The use of smart contracts ensures secure, transparent, and efficient transactions.
 
-We all know that in the Banking industry it is all about the constant search of bigger profits without caring about customers.
+Key Features:
 
-Credit borrowers are paying higher interest rates every day while people investing are having poor returns. There are also a few hidden fees that the customer doesn't know about.
+Decentralization: Built on the Ethereum blockchain to ensure trust and transparency.
+Smart Contracts: Automates lending agreements, reducing the risk of fraud.
+Fair Interest Rates: Competitive rates for both borrowers and lenders.
+No Hidden Fees: Transparent fee structure with no surprises.
+Security: Robust security measures to protect user data and funds.
+Functionalities:
 
-So we said stop. We've built a p2p blockchain lending service, fair and transparent.
+Borrowing:
+Request Funding: Users can create funding requests for their projects.
+Funding Details: Provides detailed information about the requested funding.
+Withdrawal: Allows borrowers to withdraw funds after successfully reaching the full funding goal.
+Repayment Installments: Enables borrowers to repay the loan in installments.
+Lending:
+Invest in Projects: Users can lend their funds to various projects and credits.
+Vote for Contract Revoke/Refund: Lenders can vote to revoke a contract and refund their investments if necessary.
+Fraud Detection: Users can mark projects as fraud if they suspect malicious activities.
+Technologies Used:
 
-# Features
-
-  - Ask for funding (borrow)
-  - Provide details of the requested funding.
-  - Withdrawal of funding after successfully reached goal of full funding.
-  - Repayment installments functionallity.
-  - Invest in project/credit (lend)
-  - Vote for revoke contract / refund investments.
-  - Mark project as Fraud.
-  
+Blockchain: Ethereum
+Smart Contracts: Solidity
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: MongoDB
+Wallet Integration: MetaMask
+Deployment: IPFS, Infura
+Testing: Truffle, Mocha
 ## Chart flow
 
 ![Chart flow](https://i.imgur.com/vRq7nAN.png)
